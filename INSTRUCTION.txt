@@ -1,0 +1,108 @@
+------------------------------------------------
+1. System requirement
+------------------------------------------------
+Java (http://www.oracle.com/technetwork/java/index.html)
+maven (http://maven.apache.org)
+
+
+------------------------------------------------
+2. Setting up the project
+------------------------------------------------
+a. Mac
+	- Make sure you have installed Xcode
+	- Install maven through (brew install maven)
+	- download the starter code from:
+          https://github.com/AnthonySMaida
+	- Rename starter code folder appropriately with _CLID at the end of folder name
+	- cd to the starter code folder
+		- make help (to see all the targets)
+		- make all
+		- make run
+                If you cloned from github.com/AnthonySMaida, the commands
+                below are not needed. They apply when you are creating a 
+                new repository.
+		- git init
+		- git status . (Tells you the details the repository)
+		- git add *
+		- git commit -m "Fresh setup"
+b. Linux
+	- Install Java and Maven
+	- Rest of the steps are same as Mac
+
+c. Windows
+	Method 1 (preferred):
+		- Download and install Virtualbox (https://www.virtualbox.org)
+		- Download any Linux distribution
+			ex. Ubuntu (http://www.ubuntu.com/download/desktop)
+		- Install Linux on Virtualbox
+		- Rest of the steps are same as for Linux (#b)
+
+	Method 2 :
+		- Install cygwin(https://www.cygwin.com) or mingw (http://www.mingw.org)
+		- Rest of the steps are same as for Linux (#b)
+
+Since this project will be larger than the previous assignments,
+make sure that you constantly track various versions using git commands
+
+VERY IMPORTANT : 
+-----------------
+	- Do NOT push (git push) your project until you are ready to submit. 
+	- Do NOT push (git push) your project until you are ready to submit.
+	- Do NOT push (git push) your project until you are ready to submit.
+	- Do NOT push (git push) your project until you are ready to submit.
+	- Do NOT push (git push) your project until you are ready to submit.
+	- Do NOT push (git push) your project until you are ready to submit.
+	- Do NOT push (git push) your project until you are ready to submit.
+	
+	(Yeah!! I told you many times)
+	
+
+------------------------------------------------
+3. DO NOT TOUCH
+------------------------------------------------
+The file listed below should NOT be modified
+	a. Makefile
+	b. pom.xml
+	c. src/edu/louisiana/cacs/Main.java
+
+------------------------------------------------
+4. Implementation
+------------------------------------------------
+Implement the parser in src/edu/louisiana/cacs/csce450Project/Parser.java file
+You can create as many packages and class file but all of them should be called
+from the Parser class.
+
+The entry point to run the code is in src/edu/louisiana/cacs/Main.java
+Do not modify this file.
+
+------------------------------------------------
+5. Submission
+------------------------------------------------
+When you are ready to submit, push your repository (git push) and email the URL;
+Steps:
+	1. Go to github.com
+	2. Create an empty repository with proper name
+	3. Go to terminal / command prompt
+	4. cd to your project directory
+	5. issue following commands
+		git remote add origin https://github.com/<user_name>/<repo_name>.git
+		git push -u origin master
+
+IMPORTANT : The url MUST match the following pattern
+	https://github.com/user_name/project_name_CLID.git
+	
+	Where, 
+		user_name 	= your git account user name
+		project_name= your project name
+		_CLID		= underscore followed by your clid
+
+	example of URL:
+		https://github.com/bugfinder/my_450Parser_bxf1234.git	
+
+------------------------------------------------
+6. Tips
+------------------------------------------------
+Write test cases for all your class. See the example in 
+test/edu/louisiana/cacs/csce450Project/SanityCheck.java
+
+Good luck and happy coding !!!
